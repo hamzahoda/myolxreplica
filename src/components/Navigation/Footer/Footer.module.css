@@ -1,0 +1,14 @@
+.Footerlist {
+    list-style: none;
+    position: relative;
+    margin-left: -40px ;
+}
+.Footerlist a {
+    color: rgba(0,47,52,.64);
+    font-size: 12px;
+}
+
+.Footerlist a:hover{
+    color: #002f34;
+    text-decoration: none;
+}

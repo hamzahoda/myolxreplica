@@ -1,0 +1,118 @@
+.mainuserchatcontainer{
+    display: flex;
+    margin: 20px;
+}
+
+.users{
+width: 30%;
+box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.589); /*any color you want*/
+padding: 6px;
+}
+
+.users img{
+    width: 40px;
+}
+
+.users li{
+    margin-top: 15px;
+}
+
+.users button{
+    margin-left: 10px;
+    color: #002f34;
+    border-radius: 4px;
+    border: 2px solid #002f34;
+    padding: 0 10px;
+    height: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: normal;
+    background: none;
+}
+
+.users p{
+    display: inline-block;
+    font-weight: 700;
+}
+
+.users button:hover{
+    border-width: 3px;
+    padding: 0 7px;
+}
+
+.users ul{
+    list-style: none;
+}
+
+.currentchatuser{
+    /* border: 1px solid grey; */
+    box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.589); /*any color you want*/
+    /* box-shadow: 5px 5px 8px grey; */
+    padding: 2px;
+    /* width:400px; */
+    width:50%;
+    /* background-color:yellow; */
+    margin-left: 50px;
+}
+
+.currentchatuser ul{
+    list-style: none;
+}
+
+.currentchatuser img{
+    margin:5px;
+    width:40px;
+}
+
+.messageinputbtn{
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+}
+.messageinputbtn button{
+    margin-left: 4px;
+    color: #002f34;
+    border-radius: 4px;
+    border: 2px solid #002f34;
+    padding: 0 10px;
+    height: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: normal;
+    background: none;
+
+}
+.messageinputbtn button:hover{    
+        border-width: 3px;
+        padding: 0 7px;
+}
+
+
+.messageout{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 40px; */
+    margin-bottom: 25px;
+    border: 1px solid black;
+    width: 50%;
+    padding:6px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 20px;
+}
+
+.messagein{
+    color: black;
+    /* display: flex;
+    justify-content: flex-end; */
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    background-color: rgb(122, 227, 253);
+    border-radius: 20px;
+    /* line-height: 40px; */
+    width: 50%;
+    padding:6px;
+
+}

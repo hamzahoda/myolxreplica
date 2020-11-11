@@ -1,0 +1,126 @@
+.selectedcategory{
+    font-size: 20px;
+    padding: 16px 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #002f34;
+}
+.categoryname{
+    padding: 16px;
+    color: rgba(0,47,52,.64);
+    font-size: 12px!important;
+    font-weight: 400!important;
+
+}
+.includedetailtext{
+    font-size: 20px;
+    margin: 25px 0 0 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #002f34;
+}
+.title{
+    color: #002f34;
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 20px;
+}
+.detailsbtn{
+    appearance: none;
+    background-color: #fff;
+    border-style: none;
+    box-shadow: inset 0 0 0 1px #002f34;
+    border-radius: 4px;
+    color: #002f34;
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    min-width: 64px;
+    outline: 0;
+    padding: 8px 16px;
+    line-height: 1.15;
+}
+.detailsbtn:hover{
+    background-color: #c8f8f6;
+    box-shadow: inset 0 0 0 1px #00a49f;
+    color: #00a49f;
+    
+}
+.showactive{
+    background-color: #c8f8f6;
+    box-shadow: inset 0 0 0 2px #00a49f;
+    color: #00a49f;
+    font-weight: 700;
+}
+
+.inputtitle{
+    padding: 1px 2px;
+    margin-left: 20px;
+}
+
+.inputtitle span{
+    color: rgba(0,47,52,.64);
+    font-size: 12px;
+}
+
+.inputtitle input,textarea,select{
+    color: #002f34;
+    display: block;
+    font-size: 16px;
+    height: 48px;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 50%;
+}
+.inputtitle input:focus,textarea:focus,select:focus{
+    outline: none;
+    border: 3px solid #1ab4c5;
+}
+
+.userprofile{
+    display: flex;
+}
+.userprofile img{
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.contactinfo{
+    display:flex;
+    width: 60%;
+    justify-content: space-evenly ;
+    margin-left: 10px;
+}
+
+.adpostbtn:disabled{
+    border: none;
+    background-color: #d7dddd;
+    color: #858a8a;
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    min-width: 64px;
+    padding: 8px 16px;
+    outline: none;
+    line-height: 1.15;
+}
+.adpostbtn{
+    background-color: #002f34;
+    color: #fff;
+    font-size: 14px;
+    height: 36px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    min-width: 64px;
+    padding: 8px 16px;
+    outline: none;
+    line-height: 1.15;
+}

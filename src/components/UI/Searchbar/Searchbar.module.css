@@ -1,0 +1,30 @@
+.Inputbar{
+    height: 40px;
+    padding: 0 8px;
+    overflow: visible;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    border: 2px solid  #002f34;
+    border-radius: 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.Inputbar:focus{
+    outline: none;
+    border: 2px solid #71f1ff;
+}
+
+.Searchicon{
+    color: white;
+    stroke-width: 1;
+}
+.Searchbutton{
+    margin-left: 0.5px ;
+    padding: 7.5px 12px 7.5px 12px;
+    background-color: #002f34;
+    border:none;
+}

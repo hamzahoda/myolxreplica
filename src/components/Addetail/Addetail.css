@@ -1,0 +1,124 @@
+
+.maincontainer {
+    margin-top: 120px;
+    margin-bottom: 1px;
+    padding-bottom: 40px;
+    border: 1px solid rgba(0,47,52,.2);
+    background: #fff;
+    border-radius: 4px;
+    width: 90% !important;
+    height: 100% !important;
+    margin-left: 40px !important;
+    
+}
+
+/* .carousel-inner img {
+    /* width: 100% !important; */
+    /* height: 200% !important */
+/* } */ 
+
+#custCarousel .carousel-indicators {
+    position: static;
+    margin-top: 20px;
+}
+
+#custCarousel .carousel-indicators>li {
+    width: 100px
+}
+
+#custCarousel .carousel-indicators li img {
+    display: block;
+    opacity: 0.5
+}
+
+#custCarousel .carousel-indicators li.active img {
+    opacity: 1
+}
+
+#custCarousel .carousel-indicators li:hover img {
+    opacity: 0.75
+}
+
+/* .carousel-item img {
+    width: 90%;
+    height:100%;
+} */
+
+.carousel-control-prev,.carousel-control-next{
+/* background-color: yellowgreen; */
+}
+
+.carouselicon{
+    z-index: 100;
+    width: 30px !important;
+    /* height: 30px ; */
+    border-radius: 10px;
+    background-color: black !important;
+}
+
+/* .sliderborder{
+
+} */
+
+.carousel-inner img{
+    width:100% !important;
+    /* margin-left: -15px !important; */
+}
+
+/* .carousel-inner { */
+    /* height:150% !important; */
+    /* margin-left: -15px !important; */
+/* } */
+
+.carouselimageset{
+    width: 100% !important;
+    /* height: 100% !important; */
+}
+
+.maintextcontainer{
+    padding: 16px;
+    border: 1px solid rgba(0,47,52,.2);
+    margin-left: 40px;
+    margin-bottom: 40px;
+    width: 90%;
+    border-radius: 4px;
+}
+
+.maintextcontainer h3{
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
+    color: #002f34;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.detailtext{
+    margin: 16px 0;
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+    flex-wrap:wrap;
+    font-weight:400;
+    font-style:normal;
+    font-stretch: normal;
+    font-size:14px
+}
+
+.descriptiontext{
+    padding-top: 25px;
+    border-top: 1px solid rgba(0,47,52,.2)
+}
+
+.descriptionpara{
+    margin-top: 16px;
+    word-break: break-word;
+    color: #002f34;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight:400   
+}

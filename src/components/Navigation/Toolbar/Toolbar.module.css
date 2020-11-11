@@ -1,0 +1,112 @@
+.Toolbar {
+    height: 56px;
+    width: 100%;
+    top:0;
+    left: 0;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 3px 0px 3px rgb(190, 189, 189);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+.Toolbar:after {
+    content: "";
+    background-color: rgba(0,47,52,.03);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .65;
+    pointer-events: none
+  }
+
+.Toolbar nav {
+    height:100%
+}
+
+.Logo {
+    height:80%
+}
+
+@media (max-width: 499px) {
+    .DesktopOnly{
+        display: none;
+    }
+}
+
+.NavLogo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #002f34;
+}
+
+
+
+.Sellbutton{
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100% 5px;
+    border-left: 3px solid yellow;
+    border-right: 3px solid aqua;
+    border-top: 3px solid blue;
+    border-bottom: 3px solid blue;
+    border-radius: 10px;
+   
+/* 
+font-weight: bolder;
+font-size: 20px;    
+background-color: white;
+border-image: linear-gradient(to right, yellow 20%, blue 20%, blue 40%, blue 40%, blue 60%, aqua 60%, aqua 80%, aqua 80%); 
+border-image-slice: 1;
+border-width: 4px; */
+
+
+/* background-color: #fff;
+width: 100px;
+height: 50px;
+border: double 0.2em transparent;
+border-radius: 20px;
+background-image: linear-gradient(white, white), 
+                linear-gradient(to right, yellow 20%, blue 80%,aqua 20%);
+background-origin: border-box;
+background-clip: content-box, border-box; */
+}
+
+.subheader{
+    margin-top: 56px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    box-shadow: 2px 0px 2px grey;
+}
+.subheaderheading{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #002f34;
+    margin-left: 15px;
+}
+
+.subheadernavigation{
+    display: flex;
+    justify-content: space-around;
+    margin:0 50px ;
+    width: 50%;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+    color: #002f34;
+    cursor: pointer;
+    /* background-color: #002f34; */
+}
+.subheadernavigation span:hover{
+    color:rgb(146, 229, 250)
+}

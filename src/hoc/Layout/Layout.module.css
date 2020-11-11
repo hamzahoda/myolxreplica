@@ -1,0 +1,6 @@
+.Content {
+    margin-top: 72px;
+    min-height: 52vh;
+}
+
+/* min-height:52vh props.children layout mei lagane se footer neeche fix rehga */

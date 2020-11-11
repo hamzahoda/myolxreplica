@@ -1,0 +1,112 @@
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    font-family:Roboto,Arial,Helvetica,sans-serif;
+}
+.categorycontainer{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.categorybox{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid rgba(0,47,52,.2);
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+}
+
+.categorytext{
+    padding: 24px 30px 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #002f34;
+}
+
+.categoryul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid rgba(0,47,52,.2);
+    border-bottom: 1px solid rgba(0,47,52,.2);
+    border-left: none;
+    width:50%;
+    margin-bottom: 20px;
+}
+/* width: 50%;
+    margin-left: auto;
+    left: auto; */
+    /* position: absolute;
+    right: 0!important;
+    border-right: none; */
+
+.categoryul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    color: rgba(0,47,52,.64);
+    border-top: 1px solid rgba(0,47,52,.2);
+}
+
+.categoryul li:hover,.categoryul li:active{
+    color: #002f34;
+    background-color: rgba(0,47,52,.2);
+}
+
+.categoryul li svg{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subcategory{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid rgba(0,47,52,.2);
+    border-bottom: 1px solid rgba(0,47,52,.2);
+    border-left: none;
+    width:50%;
+    margin-bottom: 20px;   
+}
+
+.facebookloginbtn{
+    font-family: Lucida Grande, Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: inline-block;
+    font-size: 14px;
+    padding: 13px 30px 15px 44px;     
+    background-color: #3A5A97;     
+    color: #fff;     
+    text-shadow: 0 -1px 0 rgba(0,0,20,.4);     
+    text-decoration: none;     
+    line-height: 1;     
+    position: relative;     
+    border-radius: 5px; 
+    outline: none; 
+    transition: 0.2s all; 
+}
+.facebookloginbtn:hover{
+    background-color: #405f97b9;
+    color:black;
+}
+
+/* Adding transformation when the button is active */ 
+.facebookloginbtn:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+} 

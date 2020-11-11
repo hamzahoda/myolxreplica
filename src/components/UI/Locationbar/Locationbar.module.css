@@ -1,0 +1,21 @@
+.Location{
+    width: 250px;
+    height: 40px;
+    padding: 0 8px;
+    overflow: visible;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    border: 2px solid  #002f34;
+    border-radius: 0;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.Location:focus{
+    outline: none;
+    border: 2px solid #71f1ff;
+}
+

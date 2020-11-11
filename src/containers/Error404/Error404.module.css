@@ -1,0 +1,38 @@
+.maincontainer{
+    display: flex;
+    justify-content:center ;
+}
+
+.firstbox{
+    display:flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 50%;
+    text-align: center;
+    color: #002f34;
+}
+.mainheading{
+    font-weight: 700;
+    font-size: 112px;
+    margin-bottom: 19px;
+}
+.subheading{
+    font-size: 32px;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.secondbox{
+    display:flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 30%;
+    /* text-align: center; */
+    justify-content: flex-start;
+    color: #002f34;
+}
+.Error404{
+    color: rgba(0,47,52,.64);
+    font-size: 14px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,47 @@
+.adscontainer{
+    list-style: none;
+}
+
+.adscontainer li {
+    margin-top: 30px;
+}
+
+.adscontainer button{
+    color: #002f34;
+    border-radius: 4px;
+    border: 2px solid #002f34;
+    padding: 0 10px;
+    height: 38px;
+    /* font-weight: 700; */
+    cursor: pointer;
+    line-height: normal;
+    background: none;
+    margin-left: 10px;
+    margin-Top: 10px;
+
+}
+
+.adscontainer button:hover{
+        border-width: 4px;
+        padding: 0 7px;
+}
+
+.adscontainer img{
+    margin-left: 20px;
+}
+
+.adscontainer h6{
+    margin: 10px 10px 0 10px;
+}
+
+.profile{
+    margin-left: 20px;
+
+}
+.profile h4,h6{
+    margin-top: 15px;
+}
+
+.profile img{
+    border-radius: 50%;
+}
